@@ -1,11 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 
-.Header_wrap{
-
-}
-
-
 .Arch{                                      /*MAIN LOGO*/
     font-family: 'Roboto Slab', 'serif';
     font-weight: 900;
@@ -15,12 +10,39 @@
 }
 
 .Facebook{                                  /* Facebook LOGO*/
-    position: absolute;
+    position: relative;
     max-width: 40px;
     margin-top: -60px;
     font-variant: initial;
-
-    align-self: center;
+    float: right;
     padding-left: 875px;
-    padding-top: px;
+    padding-right: 120px;
 }
+
+.Twitter{                                    /* Twitter LOGO*/
+  position: relative;
+  max-width: 40px;
+  margin-top: -60px;
+  font-variant: initial;
+  float: right;
+  padding-left: 800px;
+  padding-right: 60px;
+}
+
+.Instagram{                                   /* Instagram LOGO*/
+  position: relative;
+  max-width: 40px;
+  margin-top: -60px;
+  font-variant: initial;
+  float: right;
+  padding-left: 800px;
+  padding-right: 0px;
+}
+
+.copyright_wrap{
+  
+}
+
+
+
+
