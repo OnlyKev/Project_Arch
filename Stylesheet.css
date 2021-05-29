@@ -1,18 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 .Arch{                                      /*MAIN LOGO*/
-    font-family: 'Roboto Slab', 'serif';
+  font-family: 'Bebas Neue', 'cursive';
     font-weight: 900;
-    font-size: 30px;
+    font-size: 40px;
     margin-left: 10px;
     margin-top: 20px;
+    margin-bottom: 0px;
 }
 
 .Facebook{                                  /* Facebook LOGO*/
     position: relative;
     max-width: 40px;
-    margin-top: -60px;
+    margin-top: -46px;
     font-variant: initial;
     float: right;
     padding-left: 875px;
@@ -22,7 +23,7 @@
 .Twitter{                                    /* Twitter LOGO*/
   position: relative;
   max-width: 40px;
-  margin-top: -60px;
+  margin-top: -46px;
   font-variant: initial;
   float: right;
   padding-left: 800px;
@@ -32,16 +33,36 @@
 .Instagram{                                   /* Instagram LOGO*/
   position: relative;
   max-width: 40px;
-  margin-top: -60px;
+  margin-top: -46px;
   font-variant: initial;
   float: right;
   padding-left: 800px;
   padding-right: 0px;
 }
 
-.copyright_wrap{
-  
+
+
+
+
+
+
+
+.Copyright_wrap{
+        margin: -12px;
+        padding-top: 1000px;  
 }
+.Copyright{
+  background-color: #495057;
+  font-family:'Roboto Slab', 'serif', 'sans-serif';
+  font-weight: 400;
+  color: #dee2e6;
+  padding: 10px;
+  text-align: center;
+}
+
+
+
+
 
 
 
