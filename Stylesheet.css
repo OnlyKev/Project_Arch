@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+
+
+
 .Arch{                                      /*MAIN LOGO*/
   font-family: 'Bebas Neue', 'cursive';
     font-weight: 900;
@@ -12,28 +15,28 @@
 
 .Facebook{                                  /* Facebook LOGO*/
     position: relative;
-    max-width: 40px;
-    margin-top: -46px;
+    max-width: 30px;
+    margin-top: -43px;
     font-variant: initial;
     float: right;
     padding-left: 875px;
-    padding-right: 120px;
+    padding-right: 84px;
 }
 
 .Twitter{                                    /* Twitter LOGO*/
   position: relative;
-  max-width: 40px;
-  margin-top: -46px;
+  max-width: 30px;
+  margin-top: -43px;
   font-variant: initial;
   float: right;
   padding-left: 800px;
-  padding-right: 60px;
+  padding-right: 42px;
 }
 
 .Instagram{                                   /* Instagram LOGO*/
   position: relative;
-  max-width: 40px;
-  margin-top: -46px;
+  max-width: 30px;
+  margin-top: -43px;
   font-variant: initial;
   float: right;
   padding-left: 800px;
@@ -45,6 +48,15 @@
 
 
 
+
+
+.snapwire{
+  position: sticky;
+  min-width: 2px;
+  max-width: 2000px;
+  margin: -10px;
+
+}
 
 
 .Copyright_wrap{
