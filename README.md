@@ -14,3 +14,5 @@ Do "git pull" to pull latest changes.
 If you have any unfinished code that you want to upload to the repo, make sure you put in the "pre-master" branch for further development before pushing the finished code into the master branch.
 
 Do "git checkout pre-master" to change to the pre-master branch.
+
+DO NOT MERGE PRE-MASTER TO MASTER UNLESS YOU GET A OK
