@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+/* ^^^^^^^ DO NOT DELETE FONT PACK WILL NOT WORK, DO NOT DELETE FONT PACK WILL NOT WORK, DO NOT DELETE FONT PACK WILL NOT WORK, DO NOT DELETE FONT PACK WILL NOT WORK, DO NOT DELETE FONT PACK WILL NOT WORK, ^^^^^^ */
 
 
 
@@ -8,17 +10,23 @@
   font-family: 'Bebas Neue', 'cursive';
     font-weight: 900;
     font-size: 40px;
-    margin-left: 10px;
+    left: 300px;
+    position: relative;
     margin-top: 20px;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
+}
+
+.Header_wrap{
+margin-right: 300px;
 }
 
 .Facebook{                                  /* Facebook LOGO*/
     position: relative;
     max-width: 30px;
-    margin-top: -43px;
+    margin-top: -61px;
     font-variant: initial;
     float: right;
+    padding-top: 0px;
     padding-left: 875px;
     padding-right: 84px;
 }
@@ -26,7 +34,7 @@
 .Twitter{                                    /* Twitter LOGO*/
   position: relative;
   max-width: 30px;
-  margin-top: -43px;
+  margin-top: -60px;
   font-variant: initial;
   float: right;
   padding-left: 800px;
@@ -36,7 +44,7 @@
 .Instagram{                                   /* Instagram LOGO*/
   position: relative;
   max-width: 30px;
-  margin-top: -43px;
+  margin-top: -60px;
   font-variant: initial;
   float: right;
   padding-left: 800px;
@@ -44,10 +52,116 @@
 }
 
 
+/* FIRST SECTION OF WEBSITE */
+
+.Section1_wrap{
+  background-color: #2b2d42;
+  margin: -15px;
+  padding-bottom: 1100px;
+  padding-right: 30px;
+  max-width: 100%;
+  border: none;
+}
+
+
+.Expert_text{
+  font-family: 'Bebas Neue', 'cursive';
+  font-size: 65px;
+  line-height: 70px;
+  letter-spacing: 2px;
+  color: #e9ecef;
+  position: relative;
+  float: left;
+  padding-top: 30px;
+  padding-left: 300px;
+}
+
+
+
+.Textbox_container{
+  position: absolute;
+  background-color: #f8f9fa;
+  padding: 30px;
+  max-width: 100%;
+  width: 500px;
+  border-radius: 2px;
+  top: 870px;
+  left: 950px;
+
+}
+
+.About1_text{
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 10px;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 1px;
+  
+}
+
+.Planning_text{
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.Image_ref{
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight:200;
+}
+
+.Pexel_link1{
+  text-decoration: none;
+  color: black;
+}
+
+.Unsplash_link1{
+  text-decoration: none;
+  color: black;
+}
+
+.LEARN_MORE1{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  border: none;
+  background-color: #f6bd60;
+  color: white;
+  padding: 15px;
+}
+
+.Wodden_house{
+  max-width: 100%;
+  width: 700px;
+  position: absolute;
+  top: 220px;
+  left: 890px;
+}
+
+.Group_meeting{
+  max-width: 100%;
+  width: 800px;
+  position: absolute;
+  top: 485px;
+  right: 750px;
+  left: 300px;
+}
+
+.smallblob{
+  position: absolute;
+  width: 300px;
+  top: 845px;
+  left: 230px;
+}
 
 
 
 
+
+
+
+/* Footer section container */
 
 
 .snapwire{
@@ -64,10 +178,10 @@
         padding-top: 1000px;  
 }
 .Copyright{
-  background-color: #495057;
+  background-color: #2b2d42;
   font-family:'Roboto Slab', 'serif', 'sans-serif';
   font-weight: 400;
-  color: #dee2e6;
+  color: white;
   padding: 10px;
   text-align: center;
 }
